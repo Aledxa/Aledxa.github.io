@@ -1,189 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy for ALEDXA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 </head>
+<body>
 
-<body id="#top">
+<div id="mySidenav" class="sidenav">
+<img src="https://i.postimg.cc/02g6NhFj/aledxa-1.jpg" width="250" height="250">
+       <p style="color:#0000FF">WELCOME TO ALEDXA</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://aledxa.github.io">Home</a>
+  <a href="https://aledxa.github.io/morbius-details.html">Hollywood</a>
+  <a href="https://aledxa.github.io/Movies/A-gentleman.html">Bollywood</a>
+  <a href="https://aledxa.github.io/Nollywood/fate-of-alakada.html">Nollywood</a>
+  <a href="https://aledxa.github.io/Animation/pocahontas-part-1.html">Cartoons</a>
+  <a href="https://t.me/aledxamovies">Telegram Group</a>
+  <a href="https://chat.whatsapp.com/HGJv1VbqmKJDAddmaVqANt">Contact Us</a>
+  <a href="https://pay.squadco.com/4VZP2V">Donate</a>
+</div>
 
-  <!-- 
-    - #HEADER
-  -->
+ 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
-  <header class="header" data-header>
-    <div class="container">
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
-      <div class="overlay" data-overlay></div>
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   </body>
+</html> 
 
-      <a href="https://Aledxa.github.io" class="logo">
-        <img src="favicon.svg"><p class="hero-subtitle">ALEDXA</p>
-      </a>
+<!DOCTYPE html>
+<html>
+<head>
+<title>ALEDXA- AFRICA'S LARGEST ENTERTAINMENT DOWNLOAD XITE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
 
-      <div class="header-actions">
-
-        <button class="search-btn">
-          <ion-icon name="search-outline"></ion-icon>
-        </button>
-
-        <div class="lang-wrapper">
-          <label for="language">
-            <ion-icon name="globe-outline"></ion-icon>
-          </label>
-
-          <select name="language" id="language">
-            <option value="en">EN</option>
-            <option value="au">AU</option>
-            <option value="ar">AR</option>
-            <option value="tu">TU</option>
-          </select>
-        </div>
-
-        <button class="btn btn-primary">Sign in</button>
-
-      </div>
-
-      <button class="menu-open-btn" data-menu-open-btn>
-        <ion-icon name="reorder-two"></ion-icon>
-      </button>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-
-          <a href="https://Aledxa.github.io/morbius-details.html" class="logo">
-            <img src="favicon.svg"><p class="hero-subtitle">ALEDXA</p>
-          </a>
-
-          <button class="menu-close-btn" data-menu-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-
-        </div>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="./index.html" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Movie</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Tv Show</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Web Series</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Pricing</a>
-          </li>
-
-        </ul>
-
-        <ul class="navbar-social-list">
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-pinterest"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </nav>
-
-    </div>
-  </header>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
 
 
 
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>9JAHOT BLOG</b></h1>
+  <p>Welcome to the <span class="w3-tag">ALEDXA🇳🇬</span></p>
+</header>
 
+<h1>Privacy Policy for Africa's Largest Entertainment Download Xite</h1>
 
-  <main>
-    <article>
-
-      <!-- 
-        - #MOVIE DETAIL
-      -->
-
-      <section class="movie-detail">
-        <div class="container">
-
-          <figure class="movie-detail-banner">
-
-            <img src="https://i.postimg.cc/02g6NhFj/aledxa-1.jpg" alt="aledxa">
-
-            <button class="play-btn">
-              <ion-icon name="play-circle-outline"></ion-icon>
-            </button>
-
-          </figure>
-
-          <div class="movie-detail-content">
-
-            <p class="detail-subtitle">Privacy Policy</p>
-
-            <h1 class="h1 detail-title">
-              Privacy<strong>Policy</strong>
-            </h1>
-
-            <h1 class="h1 detail-title">Privacy Policy for Africa's Largest Entertainment Download Xite</h1>
-
-<p><h1 class="h1 detail-title">At ALEDXA,<strong> accessible from https://aledxa.github.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ALEDXA and how we use it.</p>
+<p>At ALEDXA, accessible from https://aledxa.github.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ALEDXA and how we use it.</p>
 
 <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
-<p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in ALEDXA. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicygenerator.info/">Free Privacy Policy Generator</a>.</p>
-
+<p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in ALEDXA. This policy is not applicable to any information collected offline or via channels other than this website.  
 <h2>Consent</h2>
 
 <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
@@ -262,39 +188,9 @@
 
 <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
 
-<p>ALEDXA does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</strong> </p>
-</h1>
-
-
-
-
-      
-
-
-
-  <!-- 
-    - #GO TO TOP
-  -->
-
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="chevron-up"></ion-icon>
-  </a>
+<p>ALEDXA does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
 
 
 
 
 
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
-</html>
