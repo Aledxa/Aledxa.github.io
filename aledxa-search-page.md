@@ -1,0 +1,58 @@
+# Aledxa.github.io
+
+Can't find what you're looking for? 
+Check out our <a href="https://aledxa.github.io">HOMEPAGE</a>
+Or <a href="https://chat.whatsapp.com/HGJv1VbqmKJDAddmaVqANt">REACH US</a> to request for a movie.
+<a href="https://wa.me/+2348094815695">CONTACT ALEDXA</a> Here. 
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Movies..">
+
+<ul id="myUL">
+  <li><a href="https://Aledxa.github.io/morbius-details.html">Morbius 2022 Marvel</a></li>
+  <li><a href="https://Aledxa.github.io/tom&-jerry-2022-details.html">Tom & Jerry Cowboy up 2022</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/9-(movie)-2009.html">9 (animation movie) 2009</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/bilal-a-new-breed-of-hero.html">Bilal (A new breed of hero) 2015 WEBDRP</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/encanto.html">Encanto</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/my-sweet-monster.html">My sweet monster</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/night-of-the-animated-dead.html">Night of the animated Dead</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/pocahontas-part-1.html">Pocahontas Part 1</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/pocahontas-part-2.html">Pocahontas Part 2</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/the-little-mermaid-ariels-beginning.html">The little mermaid (Ariel's beginning)</a></li>
+  <li><a href="https://Aledxa.github.io/Animation/the-little-mermaid-sing-along.html">The little mermaid (Sing along)</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/A-gentleman.html">A gentleman 2017 hindi</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/black-panther-part-2.html">Black Panther 2</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/doctor-strange.html">Doctor Strange in the multiverse of madness</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/exorcist-vengenace.html">Exorcist Vengeance</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/garfield-a-tail-of-two-kitties.html">Garfield 2 (A tail of two kitties)</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/garfield.html">Garfield 1</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/megaboa.html">Megaboa</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/peter-rabbit-part-1.html">Peter Rabbit 1</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/peter-rabbit-part-2.html">Peter Rabbit 2</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/scary-movie-1-5.html">Scary Movie 1</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/scary-movie-part2.html">Scary Movie 2</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/scary-movie-part3.html">Scary Movie 3</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/scary-movie-part4.html">Scary Movie 4</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/scary-movie-part5.html">Scary Movie 5</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/scooby-doo.html">Scooby Doo</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/shang-chi-marvel-studios.html">Shang chi & the legend of the 10 rings</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/sonic-the-hedgehog-part1.html">Sonic the hedgehog 1</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/sonic-the-hedgehog-part2.html">Sonic the hedgehog 2</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/the-batman-2022.html">The Batman 2022</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/the-hobbit-desolation-of-the-smug.html">The hobbit2 (Desolation of the smaug)</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/the-hobbit-part3.html">The hobbit 3</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/the-marvels-2023.html">The marvels 2023</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/the-matrix-1999.html">The matrix</a></li>
+  <li><a href="https://Aledxa.github.io/Movies/the-wolf-&-the-lion.html">The wolf & the lion 2022</a></li>
+  <li><a href="https://Aledxa.github.io/Nollywood/fate-of-alakada.html">Fate of Alakada</a></li>
+  <li><a href="https://Aledxa.github.io/Nollywood/namaste-wahala.html">Namaste Wahala</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
