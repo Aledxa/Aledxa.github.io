@@ -239,26 +239,42 @@
       </section>
 
 
-<div id="my-video"></div>
-<script type="application/javascript">
-    jwplayer("my-video").setup({
-        /**** ADVERTISING SECTION STARTS HERE ****/
-        advertising: {
-            client: "vast",
-            schedule: {
-                "myAds": {
-                    "offset": "pre",
-                    "tag" : "https://syndication.exdynsrv.com/splash.php?idzone=4779910"
-                }
-            }
-        },
-        /**** ADVERTISING SECTION ENDS HERE ****/
-        file: "https://syndication.exdynsrv.com/splash.php?idzone=4779910",
-        width: "580",
-        height: "370"
-    });
-</script>
+<link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css">
+<script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
 
+<video id="my-video" controls="" style="width: 640px; height: 360px;">
+    <source src="main_video.mp4" type="video/mp4">
+</video>
+
+<script type="application/javascript">
+    var testVideo = fluidPlayer(
+        "my-video",
+        {
+            vastOptions: {
+                "adList": [
+                    {
+                        "roll": "preRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4779910"
+                    },
+                    {
+                        "roll": "midRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4779910",
+                        "timer": 8
+                    },
+                    {
+                        "roll": "midRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4779910",
+                        "timer": 10
+                    },
+                    {
+                        "roll": "postRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4779910"
+                    }
+            ]
+        }
+}
+    );
+</script>
 
       <!-- 
         - #UPCOMING
