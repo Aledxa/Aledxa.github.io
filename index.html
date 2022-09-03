@@ -239,6 +239,25 @@
       </section>
 
 
+<div id="my-video"></div>
+<script type="application/javascript">
+    jwplayer("my-video").setup({
+        /**** ADVERTISING SECTION STARTS HERE ****/
+        advertising: {
+            client: "vast",
+            schedule: {
+                "myAds": {
+                    "offset": "pre",
+                    "tag" : "https://syndication.exdynsrv.com/splash.php?idzone=4779910"
+                }
+            }
+        },
+        /**** ADVERTISING SECTION ENDS HERE ****/
+        file: "http://example.com/main_video.mp4",
+        width: "580",
+        height: "370"
+    });
+</script>
 
 
       <!-- 
